@@ -1,0 +1,26 @@
+# pubspec.yaml
+name: leaflet_nav
+description: Simple Leaflet-like navigation with flutter_map + mock POIs
+publish_to: "none"
+version: 0.2.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2
+  flutter_map_marker_popup: ^7.0.0
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
